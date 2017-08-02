@@ -1,0 +1,30 @@
+html,body{
+  height: 100%;
+  background-color: #eee;
+}
+a{
+  color:#000;
+}
+a:hover{
+  color:#000;
+  text-decoration: none;
+}
+a:active, a:hove{
+  color:#000;
+  text-decoration: none;
+}
+.main-left{
+  margin-top: 0.25rem;
+}
+.main-right{
+  margin-top: 0.25rem;
+}
+.article-manage{
+  display: none;
+}
+.user-manage{
+  display: none;
+}
+// @media(max-width:640px){
+  
+// }

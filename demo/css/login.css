@@ -1,0 +1,68 @@
+
+html,body{
+   height: 100%;
+   background-color:#eee;
+   // overflow: hidden;
+}
+.login-wrap{
+  width: 10.0rem;
+  height:10.0rem;
+  background-color: #FFFACD; 
+  margin: 2.5rem auto;
+  padding:0.375rem;
+  box-sizing: border-box;
+}
+.user,.password,.login-btn,.dec-text{
+  width: 6.0rem;
+  margin: 0.25rem auto;
+}
+.dec-text{
+  font-size: 0.4rem;
+  margin-top: 1.25rem;
+}
+.user span,.password span{
+  display: inline-block;
+  width: 1.0rem;
+  height: 1.0rem;
+  text-align: center;
+  line-height: 1.0rem;
+  background-color: #eaeaea;
+  font-size: 0.35rem;
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+.user input,.password input{
+  width: 5.0rem;
+  height: 1.0rem;
+  border-radius: 0 0.2rem 0.2rem 0;
+  text-indent: 0.25rem;
+}
+.login-btn input{
+  width: 2.75rem;
+  height: 1.0rem;
+  line-height: 1.0rem;
+  border-radius: 0.2rem;
+}
+
+// 设置版心，因为引用boostrap里面的会导致字体不能自适应导致整个页面不能自适应
+
+@media (min-width: 768px){
+.container {
+    width: 750px;
+}
+}
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

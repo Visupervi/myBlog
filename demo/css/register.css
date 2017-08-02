@@ -1,0 +1,24 @@
+html,body{
+  background: #eee;
+  height: 100%;
+}
+.login-wrap  p{
+  font-size: 0.4rem;
+}
+.login-wrap .dec-text{
+  margin-top:0.5rem;
+}
+.login-wrap .password{
+  margin-top:0.5rem;
+}
+.login-wrap .user{
+  margin-top:0.5rem;
+}
+.login-wrap p{
+  margin-bottom: 0;
+}
+.login-wrap .login-btn {
+  width:2.5rem;
+  height:1.0rem;
+
+}

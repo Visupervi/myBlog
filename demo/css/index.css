@@ -1,0 +1,61 @@
+// html,body{
+//   height: 100%;
+//   background-color: #eee;
+// }
+
+  aside{
+
+  }
+  .main-head span{
+    display: inline-block;
+    font-size: 0.5rem;
+    font-family: "myFont";
+  }
+  .main-head span a{
+    color: #000;
+  }
+  .main-head span a:hover{
+    text-decoration: none;
+  }
+  .search{
+    margin:0.25rem auto;
+  }
+  .search input{
+    border: 0.025rem solid #000;
+    height: 0.75rem;
+    width: 90%;
+    float: left
+  }
+  aside button{
+    height: 0.75rem;
+    width: 10%;
+    background-color: red;
+    outline-style: none;
+    border: 0.025rem solid #000;
+    border-left:none; 
+    float: left;
+    color:#fff;
+  }
+.popular-poster img{
+  margin-right:0.25rem;
+  vertical-align: middle;
+}
+.tags-cloud a{
+  display: inline-block;
+  width: 1.25rem;
+  height: 0.75rem;
+  background-color: #eee;
+  text-align: center;
+  line-height: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+.article img{
+  width: 100%;
+}
+.article li a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.main-right .page{
+  margin-top: 0;
+}
