@@ -1,5 +1,4 @@
 ﻿<%@ WebHandler Language="C#" Class="issue" %>
-
 using System;
 using System.Web;
 using System.Web.Compilation;
@@ -15,24 +14,22 @@ public class issue : IHttpHandler {
     string str = "";
 
     string artContent = context.Request["issue"];
-    //string content = HttpUtility.HtmlEncode(artContent);
     string artWriter = context.Request["writer"];
     string artTit = context.Request["title"];
     db_help obj = new db_help();
     if (artContent !="" && artTit != "" && artTit != "")
     {
       str = "insert into T_article(a_Name,a_Writer,a_Content) values ('" + artTit + "','" + artWriter + "','" + artContent + "')";
-      if(obj.ExecNonSqlR(str) > 0) ;
-        {
-            context.Response.Write("ok");
-        }
+      if(obj.ExecNonSqlR(str) > 0)
+      {
+        context.Response.Write("ok");
+        //context.Response.Write("'<script>alert("注册成功")</script>'");
+      }
     }
     else {
       context.Response.Write("fail");
-
     }
 
-    //context.Response.Write(artTit);
   }
 
   public bool IsReusable {
@@ -40,5 +37,4 @@ public class issue : IHttpHandler {
       return false;
     }
   }
-
 }

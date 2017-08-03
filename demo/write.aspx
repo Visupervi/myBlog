@@ -39,14 +39,8 @@
           <span><i class="iconfont">&#xe60c;</i>作者</span>
           <input class="holder" type="text" name="writer" runat="server" placeholder="请输入作者" />
         </div>
-        <%--<div class="title">
-          <span><i ></i>分类</span>
-          <input type="text" name="writer" runat="server" placeholder="请输入类型" />
-        </div>--%>
         <div id="edit" class="col-lg-12 col-md-12 col-sm-12" runat="server"></div>
-        <%--<div class="issue">--%>
-          <input class="issue-btn" type="button" value="发布" runat="server" name="issue"/>
-        <%--</div>--%>
+         <input class="issue-btn" type="button" value="发布" runat="server" name="issue"/>
       </div>
     </div>
 
@@ -129,27 +123,14 @@
   <script>
     (function () {
       var edit = document.querySelector("#edit");
-      //console.log(editVal);
       var dispaly = document.querySelector(".dislay");
       var issueBtn = document.querySelector(".issue-btn");
-      console.log(dispaly);
-      //console.log(111);
       //点击发布按钮，发送ajax请求，把富文本的数据存入数据库，在页面展示界面同时渲染，如何展示详细的信息？
-
       issueBtn.addEventListener("click", function () {
-        //console.log(edit.innerHTML);
         var content = edit.querySelector(".froala-element");
-        //content = encodeURI(content);
         var issueTxt = content.innerHTML;
-        //issueTxt = encodeURI(issueTxt);
         var titleVal = document.querySelector(".tit").value;
-        console.log(titleVal);
         var writer = document.querySelector(".holder").value;
-        console.log(titleVal);
-        console.log(writer);
-        //var str = $.base64.encode(str1);
-        //dispaly.innerHTML = content.innerHTML;
-        //console.log(str1);
         var xhr;
         if (window.ActiveXObject) {
           xhr = new ActiveXObject("Microsoft.XMLHTTP");
@@ -162,12 +143,13 @@
         xhr.onreadystatechange = function () {
           if (xhr.readyState == 4 || xhr.status == 200) {
             var data = xhr.responseText;
-            //console.log(data);
+            console.log(data);
             if (data !== "ok") {
-              alert("请检查网路是否通畅!");
+              //alert("请检查网路是否通畅!");
               return false;
             } else {
               alert("发布成功!");
+              document.location.href = "Default.aspx";
               return false;
             }
           }

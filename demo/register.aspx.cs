@@ -45,18 +45,12 @@ public partial class register : System.Web.UI.Page
   {
     string sql = "";
     string adm = uName.Value;
-    //string adm = Request.Form["Username"];
     string npw = uPwd.Value;
-    //string npw = Request.Form["Password"];
-    //Console.Write()
     obj = new db_help();
-    //sql = "insert into T_user (U_name,U_password) values ( '"+ adm+ "','" + npw + "'）";
     sql = "Insert into T_user(U_Name, U_Password) values('" + adm + "','" + npw + "')";
     obj.ExecNonSql(sql);
     obj.Close();
-    //function_all.TiaoZhuan("注册成功，请登录！", "Default.aspx", 0);
     Response.Write("<script>alert('注册成功');window.location='Default.aspx';</script>");
-
     Response.Write(adm);
   }
 

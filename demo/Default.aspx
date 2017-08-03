@@ -4,13 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-  <link rel="stylesheet" href="css/init.css">
-  <link rel="stylesheet" href="css/commen.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/init.css"/>
+  <link rel="stylesheet" href="css/commen.css"/>
+  <link rel="stylesheet" href="css/index.css"/>
+  <link rel="stylesheet" href="cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
   <script src="js/rem.js"></script>
 </head>
 <body>
@@ -46,87 +46,87 @@
       <div class="row">
         <!-- <div class=""></div> -->
         <aside class="fl col-xs-5 col-md-4 col-sm-4 main-left">
-        <div class="search clearfix">
-          <input type="search">
-          <button><span class="glyphicon glyphicon-search"></span></button>
-        </div>
-        <div class="blog-catalogue">
-          <h4>BLOG CATALOGUE</h4>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <span class="badge">14</span>
-              移动web
-            </li>
-            <li class="list-group-item">
-              <span class="badge">14</span>
-              H5
-            </li>
-            <li class="list-group-item">
-              <span class="badge">14</span>
-              Node.js
-            </li>
-            <li class="list-group-item">
-              <span class="badge">14</span>
-              Veu.js
-            </li>
-            <li class="list-group-item">
-              <span class="badge">14</span>
-              ASP.NET
-            </li>
-            <li class="list-group-item">
-              <span class="badge">14</span>
-              移动web
-            </li>
-          </ul>
-        </div>
-        <div class="popular-poster">
-          <h4>POPULOR POSTER</h4>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <!-- <span class="badge">14</span>
-              移动web -->
-              <img class="fl" src="images/kaer.gif" alt="">
-              <p>2014年8月13日 - html实现文字绕排示例(html图文混排) html实现文字绕排示例(html 图文混排) 在word 中我们知道如何是文字绕排,但在web 页面中如何实现呢?这个就不象w...</p>
-              <p class="text-right">2017-05-07</p>
-            </li>
-            <li class="list-group-item">
-              <!-- <span class="badge">14</span>
-              移动web -->
-              <img class="fl" src="images/kaer.gif" alt="">
-              <p>2014年8月13日 - html实现文字绕排示例(html图文混排) html实现文字绕排示例(html 图文混排) 在word 中我们知道如何是文字绕排,但在web 页面中如何实现呢?这个就不象w...</p>
-              <p class="text-right">2017-05-07</p>
-            </li>
-            <li class="list-group-item">
-              <!-- <span class="badge">14</span>
-              移动web -->
-              <img class="fl" src="images/kaer.gif" alt="">
-              <p>2014年8月13日 - html实现文字绕排示例(html图文混排) html实现文字绕排示例(html 图文混排) 在word 中我们知道如何是文字绕排,但在web 页面中如何实现呢?这个就不象w...</p>
-              <p class="text-right">2017-05-07</p>
-            </li>
-            <li class="list-group-item">
-              <!-- <span class="badge">14</span>
-              移动web -->
-              <img class="fl" src="images/kaer.gif" alt="">
-              <p>2014年8月13日 - html实现文字绕排示例(html图文混排) html实现文字绕排示例(html 图文混排) 在word 中我们知道如何是文字绕排,但在web 页面中如何实现呢?这个就不象w...</p>
-              <p class="text-right">2017-05-07</p>
-            </li>
-           
-          </ul>
-        </div>
-        <div class="tags-cloud">
-          <h4>TAGS CLOUD</h4>
-          <ul class="list-group">
+          <div class="search clearfix">
+            <input type="search">
+            <button><span class="glyphicon glyphicon-search"></span></button>
+          </div>
+          <div class="blog-catalogue">
+            <h4>BLOG CATALOGUE</h4>
+            <ul class="list-group">
               <li class="list-group-item">
-                <a href="javascript:;">JUST</a>
-                <a href="javascript:;">DO</a>
-                <a href="javascript:;">IT</a>
-                <a href="javascript:;">QUITE</a>
-                <a href="javascript:;">TO</a>
-                <a href="javascript:;">DO</a>
-                <a href="javascript:;">IT</a>
+                <span class="badge">14</span>
+                移动web
               </li>
-          </ul>
-        </div>
+              <li class="list-group-item">
+                <span class="badge">14</span>
+                H5
+              </li>
+              <li class="list-group-item">
+                <span class="badge">14</span>
+                Node.js
+              </li>
+              <li class="list-group-item">
+                <span class="badge">14</span>
+                Veu.js
+              </li>
+              <li class="list-group-item">
+                <span class="badge">14</span>
+                ASP.NET
+              </li>
+              <li class="list-group-item">
+                <span class="badge">14</span>
+                移动web
+              </li>
+            </ul>
+          </div>
+          <div class="popular-poster">
+            <h4>POPULOR POSTER</h4>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <!-- <span class="badge">14</span>
+                移动web -->
+                <img class="fl" src="images/kaer.gif" alt=""/>
+                <p>2014年8月13日 - html实现文字绕排示例(html图文混排) html实现文字绕排示例(html 图文混排) 在word 中我们知道如何是文字绕排,但在web 页面中如何实现呢?这个就不象w...</p>
+                <p class="text-right">2017-05-07</p>
+              </li>
+              <li class="list-group-item">
+                <!-- <span class="badge">14</span>
+                移动web -->
+                <img class="fl" src="images/kaer.gif" alt=""/>
+                <p>2014年8月13日 - html实现文字绕排示例(html图文混排) html实现文字绕排示例(html 图文混排) 在word 中我们知道如何是文字绕排,但在web 页面中如何实现呢?这个就不象w...</p>
+                <p class="text-right">2017-05-07</p>
+              </li>
+              <li class="list-group-item">
+                <!-- <span class="badge">14</span>
+                移动web -->
+                <img class="fl" src="images/kaer.gif" alt=""/>
+                <p>2014年8月13日 - html实现文字绕排示例(html图文混排) html实现文字绕排示例(html 图文混排) 在word 中我们知道如何是文字绕排,但在web 页面中如何实现呢?这个就不象w...</p>
+                <p class="text-right">2017-05-07</p>
+              </li>
+              <li class="list-group-item">
+                <!-- <span class="badge">14</span>
+                移动web -->
+                <img class="fl" src="images/kaer.gif" alt=""/>
+                <p>2014年8月13日 - html实现文字绕排示例(html图文混排) html实现文字绕排示例(html 图文混排) 在word 中我们知道如何是文字绕排,但在web 页面中如何实现呢?这个就不象w...</p>
+                <p class="text-right">2017-05-07</p>
+              </li>
+           
+            </ul>
+          </div>
+          <div class="tags-cloud">
+            <h4>TAGS CLOUD</h4>
+            <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="javascript:;">JUST</a>
+                  <a href="javascript:;">DO</a>
+                  <a href="javascript:;">IT</a>
+                  <a href="javascript:;">QUITE</a>
+                  <a href="javascript:;">TO</a>
+                  <a href="javascript:;">DO</a>
+                  <a href="javascript:;">IT</a>
+                </li>
+            </ul>
+          </div>
         </aside>
       <article class="main-right col-md-8 col-sm-8  fr">
           <ul class="list-group article">
@@ -150,27 +150,26 @@
             </li>
           </ul>
           <nav>
-          <ul class="pagination page">
-            <li>
-              <a href="javascript:;" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-              </a>
-            </li>
-            <li class="active"><a href="javascript:;">1</a></li>
-            <li><a href="javascript:;">2</a></li>
-            <li><a href="javascript:;">3</a></li>
-            <li><a href="javascript:;">4</a></li>
-            <li>
-              <a href="javascript:;" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-        </div>
+            <ul class="pagination page">
+              <li>
+                <a href="javascript:;" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="active"><a href="javascript:;">1</a></li>
+              <li><a href="javascript:;">2</a></li>
+              <li><a href="javascript:;">3</a></li>
+              <li><a href="javascript:;">4</a></li>
+              <li>
+                <a href="javascript:;" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
       </article>
       </div>
-    </div>
+      </div>
   </div>
   <footer class="blog-footer">
     <div class="container">

@@ -229,6 +229,7 @@
     //二次输入密码确认密码
     secondPwd.addEventListener("blur", function () {
       tips[2].style.display = "block";
+      console.log(repwd);
       if (this.value !== repwd) {
         tips[2].innerHTML = "两次密码不一致，请重新输入";
         tips[2].style.color = "red";

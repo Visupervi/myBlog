@@ -9,9 +9,7 @@ public class register : IHttpHandler {
   public void ProcessRequest (HttpContext context) {
     context.Response.ContentType = "text/plain";
     string str = "";
-    //context.Response.Clear();
     string userName = context.Request.Form["userName"];
-    //string password = context.Request.QueryString["passWord"];
     db_help obj = new db_help();
     SqlDataReader rds = default(SqlDataReader);
     str = "select * from T_user where u_Name='"+userName+"'";
